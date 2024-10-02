@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+   
+    background-image: url('PIC.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
+  
+  h1 {
+    color: #b302fe;
+    text-align: center;
+    text-shadow: 2px 2px #fb02ff;
+  }
+  
+  h2 {
+    color:whitesmoke;
+    margin-top: 20px;
+    margin-left: 650px;
+  }
+  
+ 
+  input[type="text"], input[type="number"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    width: 300px;
+    margin-left :600px;
+    margin-top: 50px;
+    border-style:double;
+    
+  }
+  
+  input[type="text"]:focus, input[type="number"]:focus {
+    border-color: #ff00d9;
+    outline: none;
+  }
+  
+  button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff00e1e5;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left :700px;
+    margin-top:30px
+  }
+  
+  button:hover {
+    background-color: #890bff;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0; 
+   
+  }
+  
+  li {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+    
+
+  }
+  
+  li button {
+    background-color: #f900cf;
+  }
+  
+  li button:hover {
+    background-color: #fef8ff;
+    color:purple ;
+  }
+  
+  p {
+    text-align: center;
+    color: #fffdfd;
+  }
+  

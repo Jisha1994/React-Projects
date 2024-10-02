@@ -1,0 +1,52 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-image:url("JM Monogram  Creative Logo Templates.jpeg") ;
+    background-repeat: repeat;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+
+img{
+    width: 500px;
+    height: 750px;
+    border-radius: 10px;
+    border-color: bisque;
+    box-shadow: 0 0 10px rgba(107, 103, 103, 0.9);
+    padding: 5px;
+}
+
+
+
+button {
+    width: 30%;
+    padding: 10px;
+    font-size: 16px;
+    background-color:#641e16 ; 
+    color: rgb(203, 193, 193);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(240, 124, 124, 0.9);
+    }
+    h1{
+        color: rgb(173, 129, 64);
+        text-align: center;
+    }
+   
+
+    ul{
+        color:saddlebrown;
+        font-size: 20px;
+        font-family: fantasy;
+        
+        
+    }

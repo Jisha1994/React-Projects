@@ -1,0 +1,26 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(to top, #5ee7df 0%, #b490ca 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 20px;
+    padding: 10 px;
+  }
+  
+  h1 {
+    text-align: center;
+    color:white; 
+    
+  }
+  
+  p {
+    color: #145a32;
+  }
+  
+  img {
+    width: 1500px;
+    height: fit-content;
+  }
+  
+  

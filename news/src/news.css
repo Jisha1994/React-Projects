@@ -1,0 +1,100 @@
+body {
+    background-image: url('il_1080xN.2794362434_nr2m.avif');
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: (rgba(248, 248, 248, 0.7));
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7); 
+
+}
+
+h1 {
+    text-align: center;
+    color:whitesmoke;
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input[type="text"] {
+    width: 750px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+ 
+}
+
+input[type="text"]:focus {
+    border-color: black;
+    border-style:dashed;
+    outline: none;
+}
+
+button {
+  width: 770px;
+  padding: 10px;
+  font-size: 16px;
+  background-color:#403f40 ; 
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+    
+}
+
+button:hover {
+    background-color: #000000;
+    color: aliceblue;
+}
+
+
+
+.article {
+    background-color: whitesmoke;
+    border: 1px solid #e1e1e1;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.9); 
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    color :#000000;
+}
+
+.article:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.article h2 {
+    font-size: 1.8rem;
+    margin: 0 0 10px;
+    color: #333;
+}
+
+.article p {
+    font-size: 15px;
+    margin: 0 0 10px;
+    color: #555;
+}
+
+.article a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.article a:hover {
+    color: #ff0000;
+}

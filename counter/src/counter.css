@@ -1,0 +1,25 @@
+body{
+background-color: bisque;
+align-items: center;
+font-size: 50px;
+padding: 100px;
+
+}
+
+button {
+    background-color: #4CAF50; 
+    color: rgb(246, 246, 246); 
+    border: none; 
+    padding: 10px 20px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 1rem; 
+    margin: 4px 2px; 
+    cursor: pointer; 
+    border-radius: 5px; 
+   
+}
+h1{
+    color: #4CAF50;
+}

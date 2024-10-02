@@ -1,0 +1,22 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reduce Function Example</title>
+</head>
+<body>
+    <p id="result"></p>
+    <script>
+
+        const numbers = [1, 2, 3, 4, 5]; 
+        function add(total, currentValue) 
+        {
+    return total + currentValue;
+        }
+        const sum = numbers.reduce(add, 0); 
+        document.getElementById('result').innerHTML = 'Sum: ' + sum;
+    </script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Arrow Function Example</title>
+</head>
+<body>
+    <h1>Square a Number</h1>
+    <input type="number" id="numberInput" placeholder="Enter a number" />
+    <button onclick="calculateSquare()">Calculate Square</button>
+    <p id="result"></p>
+
+    <script>
+     
+        const square = (number) => number * number;
+
+        function calculateSquare() 
+        {
+            const input = document.getElementById('numberInput').value;
+            const result = square(Number(input)); 
+            document.getElementById('result').textContent = 'Square: ' + result;
+        }
+    </script>
+</body>
+</html>
